@@ -75,7 +75,7 @@ const climateProjection = Array.from({ length: 11 }).map((_, i) => {
   return {
     year,
     businessAsUsual: 145 + i * 5 + (i > 4 ? 10 : 0),
-    withGAIA: 150 - i * 2 - (i > 5 ? 4 : 0),
+    withGPV: 150 - i * 2 - (i > 5 ? 4 : 0),
   };
 });
 
@@ -321,7 +321,7 @@ export default function GreenPathVietnamApp() {
                 <Tooltip />
                 <Legend />
                 <Line type="monotone" dataKey="businessAsUsual" name="Business as Usual" stroke="#ef4444" strokeWidth={3} dot={false} />
-                <Line type="monotone" dataKey="withGAIA" name="With GAIA" stroke="#10b981" strokeWidth={3} dot={false} />
+                <Line type="monotone" dataKey="withGPV" name="With GPV" stroke="#10b981" strokeWidth={3} dot={false} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -333,7 +333,7 @@ export default function GreenPathVietnamApp() {
           </Card>
           <Card>
             <div className="text-sm">Expected T kg/CO₂ by 2035: <span className="font-bold text-red-600">190</span></div>
-            <div className="text-sm">Kg/CO₂ by 2035 with GAIA: <span className="font-bold text-emerald-600">130 (32% loss)</span></div>
+            <div className="text-sm">Kg/CO₂ by 2035 with GPV: <span className="font-bold text-emerald-600">130 (32% loss)</span></div>
           </Card>
         </div>
       </div>
