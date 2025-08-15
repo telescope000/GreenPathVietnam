@@ -96,7 +96,7 @@ const posts = [
     title: "The Importance of Mangrove Trees",
     text:
       "Coastal protectors that reduce erosion, shield shorelines, and capture carbon dioxide. Let’s conserve them.",
-    img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1632807515528-ddd9967acb94?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop",
   },
 ];
 
