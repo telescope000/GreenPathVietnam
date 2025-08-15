@@ -87,7 +87,7 @@ const posts = [
     title: "5 reasons why we must visit Can Gio Reserve",
     text:
       "UNESCO biosphere reserve with mangrove forests, wetlands, and abundant wildlife. Perfect for responsible eco‑tourism.",
-    img: "https://images.unsplash.com/photo-1534711425781-4b12153a2c5b?q=80&w=1200&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1589556183130-530470785fab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop",
   },
   {
     id: "p2",
@@ -566,7 +566,7 @@ export default function GreenPathVietnamApp() {
           </div>
         </div>
       </nav>
-    </div>
+    </div> 
   );
 }
 
